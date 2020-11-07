@@ -36,12 +36,13 @@ header p{
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 20px;
+	padding-top: 20px;
 }
 
 main img{
 	max-width: 100%;
 	border: 15px solid #C70039;
+	margin: 0 auto;
 }
 
 h2{
@@ -54,9 +55,13 @@ a{
 	color: white;
 }
 
+p.space{
+	padding-top: 20px;
+}
+
 a:hover{
 	color: white;
-	background-color: #483a94;
+	background-color: #C70039;
 }
 
 footer{
