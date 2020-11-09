@@ -1,0 +1,52 @@
+.box{
+	background-color: black;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 40px;
+	border: #DE6E36 10px dashed;
+}
+
+.small-box{
+	background-color: black;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 40px;
+	border: #DE6E36 5px dashed;
+	width: 200px;
+	height: 325px;
+	text-align: center;
+}
+
+body img{
+	height: 200px;
+}
+
+h2, p{
+	font-size: 60px;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+}
+
+h3{
+	color: white;
+	font-size: 30px;
+}
+
+p{
+	font-size: 12px;
+}
+
+.negative-box h2{
+	font-size: 60px;
+	margin: 100px 0 0 30px;
+	color: white;
+	background-color: #FA8072;
+}
+
+body{
+	background-image: url(img/dnd-background.jpg);
+	background-size:1500px;
+}
+
