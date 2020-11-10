@@ -6,15 +6,28 @@
 	border: #DE6E36 10px dashed;
 }
 
+#white-box{
+	background-color: white;
+	padding-left: 10px;
+	border: black 5px dashed;
+	text-align: center;
+	height: 1000px;
+}
+
 .small-box{
 	background-color: black;
 	box-sizing: border-box;
-	padding: 0px;
+	padding: 20px;
 	margin: 40px;
 	border: #DE6E36 5px dashed;
-	width: 200px;
+	width: 700px;
 	height: 325px;
 	text-align: center;
+}
+
+.line{
+	padding-left: 40px;
+	font-size: 25px;
 }
 
 body img{
@@ -38,11 +51,18 @@ p{
 	font-size: 12px;
 }
 
-.negative-box h2{
-	font-size: 60px;
-	margin: 100px 0 0 30px;
-	color: white;
-	background-color: #FA8072;
+.images{
+	display: inline;
+	margin: 150px;
+	padding: 10px;
+	vertical-align: middle;
+}
+
+#content{
+	display: block;
+	top: 90px;
+    word-wrap: normal;
+    white-space: nowrap;
 }
 
 body{
