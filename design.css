@@ -2,39 +2,122 @@
 	background-color: black;
 	box-sizing: border-box;
 	padding: 20px;
-	margin: 40px;
+	margin: 40px 40px 0px 40px;
 	border: #DE6E36 10px dashed;
 }
 
-#white-box{
+.second-box{
+	margin: 20px 40px 20px 40px;
+	font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-box{
+	margin: 20px 40px 20px 40px;
+	font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+	margin: 0px 115px 0px 115px;
 	background-color: white;
-	padding-left: 10px;
-	border: black 5px dashed;
-	text-align: center;
-	height: 1000px;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.small-box{
-	background-color: black;
-	box-sizing: border-box;
-	padding: 20px;
-	margin: 40px;
-	border: #DE6E36 5px dashed;
-	width: 700px;
-	height: 325px;
-	text-align: center;
+.row-2{
+	margin: 0px 118px 0px 118px;
+	background-color: white;
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.line{
-	padding-left: 40px;
-	font-size: 25px;
+.row-2:nth-of-type(1){
+	border: #98ADC4 5px dashed;
 }
 
-body img{
+.row-2:nth-of-type(2){
+	border: #A58249 5px dashed;
+}
+
+.row:nth-of-type(1){
+	border: #9B1940 5px dashed;
+}
+
+.row:nth-of-type(2){
+	border: #109DC2 5px dashed; 
+}
+
+.row:nth-of-type(3){
+	border: #303638 5px dashed;
+}
+
+.image-box{
+	margin: 20px 40px 20px 40px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.image-box-2{
+	margin: 20px 40px 20px 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.image-row{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.image-row:nth-of-type(1){
+	border: #9B1940 5px solid;
+}
+
+.image-row:nth-of-type(2){
+	border: #109DC2 5px solid; 
+}
+
+.image-row:nth-of-type(3){
+	border: #303638 5px solid;
+}
+
+.image-row-2{
+	margin: 0px 118px 0px 118px;
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.image-row-2:nth-of-type(1){
+	border: #98ADC4 5px solid;
+}
+
+.image-row-2:nth-of-type(2){
+	border: #A58249 5px solid; 
+}
+
+img{
 	height: 200px;
 }
 
-h2, p{
+h1{
 	font-size: 60px;
 	margin: 0px;
 	color: white;
@@ -42,31 +125,9 @@ h2, p{
 	font-family: 'Press Start 2P', cursive;
 }
 
-h3{
-	color: white;
-	font-size: 30px;
-}
-
-p{
-	font-size: 12px;
-}
-
-.images{
-	display: inline;
-	margin: 150px;
-	padding: 10px;
-	vertical-align: middle;
-}
-
-#content{
-	display: block;
-	top: 90px;
-    word-wrap: normal;
-    white-space: nowrap;
-}
-
 body{
 	background-image: url(img/dnd-background.jpg);
-	background-size:1500px;
+	width: 1400px;
 }
+
 
