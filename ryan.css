@@ -1,0 +1,72 @@
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header{
+	background-color: #9E255E;
+	padding: 15px;
+	font-size: 30px;
+	font-family: sans-serif;
+	position: sticky;
+	top: 0;
+}
+
+header img{
+	border-radius: 300px;
+	width: 150px;
+	border: 10px #821F4E solid;
+}
+
+h1{
+	color: white;
+	padding: 25px;
+}
+
+.directory{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+	color: white;
+}
+
+.space{
+	padding: 0 15px 0 15px;
+	font-size: 20px;
+}
+
+.space:hover{
+	color: #9E255E;
+	background-color: white;
+	cursor: pointer;
+}
+
+.jobs{
+	display: flex;
+	justify-content: space-around;
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 25px 0px 25px 0px;
+	color: #9E255E;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+body p{
+	display: flex;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 0 50px 0 50px;
+}
+
+p{
+	width: 20px;
+}

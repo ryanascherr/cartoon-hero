@@ -1,0 +1,47 @@
+h1{
+	color: white;
+	background-color: #1B4F72;
+	font-family: sans-serif;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+h1:hover{
+	color: #135588;
+}
+
+.pcs{
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+}
+
+.pc-box{
+	color: white;
+	width: 2584.8px;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.pc-box:nth-of-type(1){
+	background-color: #21618C;
+}
+
+.pc-box:nth-of-type(2){
+	background-color: #2874A6;
+}
+
+.pc-box:nth-of-type(3){
+	background-color: #2E86C1;
+}
+
+.pc-box:nth-of-type(4){
+	background-color: #3498DB;
+}
+
+.pc-box:nth-of-type(5){
+	background-color: #5DADE2;
+}
